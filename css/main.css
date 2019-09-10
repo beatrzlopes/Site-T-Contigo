@@ -1,126 +1,124 @@
 .navbar{
-    opacity: 0.9;
-    background-color: #f05c20;
+  opacity: 0.9;
+  background-color: #f05c20;
 }
 
 .fixed-top {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
 }
 .logo {
-    width: 200.1px;
-    height: 51.2px;
-    object-fit: contain;
+  width: 200.1px;
+  height: 51.2px;
+  object-fit: contain;
 }
 input{
-    border: none;
-    height: 42px;
-    width: 360px;
+  border: none;
+  height: 42px;
+  width: 360px;
 }
- 
+
 .butt{
-    width: 50px;
-    object-fit: contain;
-    height: 42px;
-    background-color: #f59f7b;
-    border: none;
-    text-align: center;
-    margin-right: 1rem  !important;
- }
- .user{
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    border-left: 10px
- }
+  width: 50px;
+  object-fit: contain;
+  height: 42px;
+  background-color: #f59f7b;
+  border: none;
+  text-align: center;
+  margin-right: 1rem  !important;
+}
+.user{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-left: 10px
+}
 
 
 
- .space{
-     height: 100px;
- }
-    @media screen and (max-width: 715px) {
-    input{
-            border: none;
-            height: 42px;
-            width: 250px;
-        }
-    }
-    @media screen and (max-width: 600px) {
-    input{
-        border: none;
-        height: 42px;
-        width: 150px;
-    }
+.space{
+   height: 100px;
+}
+  @media screen and (max-width: 715px) {
+  input{
+          border: none;
+          height: 42px;
+          width: 250px;
+      }
+  }
+  @media screen and (max-width: 600px) {
+  input{
+      border: none;
+      height: 42px;
+      width: 150px;
+  }
 
-    }
+  }
 
-    @media screen and (max-width: 500px) {
-        input{
-            border: none;
-            height: 42px;
-            width: 60px;
-            font-size: 10px;
-        }
+  @media screen and (max-width: 500px) {
+      input{
+          border: none;
+          height: 42px;
+          width: 60px;
+          font-size: 10px;
+      }
 
 
-    }
+  }
 
 .rodape{
-    background-color: #9a9c9f
- }
+  background-color: #9a9c9f
+}
 
 .banner{
+  
+    width: 1200px;
+    height: 500px;
     
-      width: 1200px;
-      height: 500px;
-      
 }
 
 
 
 .rodape{
-    margin-top: 50px;
-    background-color: #9a9c9f
+  margin-top: 50px;
+  background-color: #9a9c9f
 }
 
 .butt2{
-    
-    width: 327px;
-    height: 48px;
-    border-radius: 4px;
-    background-color: #f16c35;
-    border:none;
-    margin-right: 16px;
-    margin-top: 18px;
-    font-size: 18px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 0.67;
-    letter-spacing: normal;
-    text-align: center;
-    color: #ffffff;
-    font-family: Arial;
-    text-align: center
+  
+  width: 327px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #f16c35;
+  border:none;
+  margin-right: 16px;
+  margin-top: 18px;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  font-family: Arial;
+  text-align: center
 }
 
 .butt2:hover{
-        background-color:#f3530e;
-        -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        transform: scale(1.1);
-        -moz-transform: scale(1.1);
-        -o-transform: scale(1.1);
+      background-color:#f3530e;
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -o-transform: scale(1.1);
 }
-}
-}
-}
+
 .text-center{
-    text-align: center;
+  text-align: center;
 }
 
 
@@ -128,61 +126,148 @@ input{
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+max-width: 1000px;
+position: relative;
+margin: auto;
 }
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+display: none;
 }
 
 /* Next & previous buttons */
 .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+margin-top: -22px;
+padding: 16px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+right: 0;
+border-radius: 3px 0 0 3px;
 }
 .prev{
-    left: 0;
-    border-radius: 3px 0 0 3px;
-  }
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(201, 104, 14, 0.8);
+background-color: rgba(201, 104, 14, 0.8);
 }
 
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 4s;
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 4s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+from {opacity: .4}
+to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+from {opacity: .4}
+to {opacity: 1}
+}
+
+
+
+/*footer*/
+
+ul{
+list-style-type: none;
+}
+
+
+.footer{
+width: 100%;
+color: white;
+
+}
+
+
+/* Style the input field inside the navbar */
+.search-container input[type=text] {
+width: 210px;
+height: 40px;
+padding: 12px 20px;
+font-size: 10px; 
+
+border: 1px solid white;
+border-radius: 4px 0px 0px 4px;
+box-sizing: border-box;
+
+background-color: #9a9c9f;
+-webkit-border-radius: 4px 0px 0px 4px;
+-moz-border-radius: 4px 0px 0px 4px;
+-ms-border-radius: 4px 0px 0px 4px;
+-o-border-radius: 4px 0px 0px 4px;
+}
+
+/* Style the button inside the input container */
+.search-container button {
+width: 60px;
+height: 40px;
+border-radius: 0px 4px 4px 0px;
+/*top-left,top-right,bottom-rightandbottom-left*/
+background-color: white;
+border:none;
+font-size: 10px;
+font-style: normal;
+font-stretch: normal;
+line-height: 1,2;
+letter-spacing: normal;
+text-align: center;
+color: #f16c35;
+font-family: Arial;
+
+-webkit-border-radius: 0px 4px 4px 0px;
+-moz-border-radius: 0px 4px 4px 0px;
+-ms-border-radius: 0px 4px 4px 0px;
+-o-border-radius: 0px 4px 4px 0px;
+border: none;
+cursor: pointer;
+}
+
+.search-container button:hover {
+background: #ccc;
+}
+
+::-webkit-input-placeholder {
+color: white;
+}
+
+:-moz-placeholder {
+color: white;
+
+}
+
+::-moz-placeholder {
+color: white;  
+
+}
+
+:-ms-input-placeholder {  
+color: white;  
+
+}
+
+.social-m{
+margin-right: 10px;
+
 }
