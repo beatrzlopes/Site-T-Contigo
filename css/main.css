@@ -62,8 +62,10 @@ input{
         input{
             border: none;
             height: 42px;
-            width: 83px;
+            width: 60px;
+            font-size: 10px;
         }
+
 
     }
 
