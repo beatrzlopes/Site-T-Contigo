@@ -1,0 +1,186 @@
+.navbar{
+    opacity: 0.9;
+    background-color: #f05c20;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.logo {
+    width: 200.1px;
+    height: 51.2px;
+    object-fit: contain;
+}
+input{
+    border: none;
+    height: 42px;
+    width: 360px;
+}
+ 
+.butt{
+    width: 50px;
+    object-fit: contain;
+    height: 42px;
+    background-color: #f59f7b;
+    border: none;
+    text-align: center;
+    margin-right: 1rem  !important;
+ }
+ .user{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-left: 10px
+ }
+
+
+
+ .space{
+     height: 100px;
+ }
+    @media screen and (max-width: 715px) {
+    input{
+            border: none;
+            height: 42px;
+            width: 250px;
+        }
+    }
+    @media screen and (max-width: 600px) {
+    input{
+        border: none;
+        height: 42px;
+        width: 150px;
+    }
+
+    }
+
+    @media screen and (max-width: 500px) {
+        input{
+            border: none;
+            height: 42px;
+            width: 83px;
+        }
+
+    }
+
+.rodape{
+    background-color: #9a9c9f
+ }
+
+.banner{
+    
+      width: 1200px;
+      height: 500px;
+      
+}
+
+
+
+.rodape{
+    margin-top: 50px;
+    background-color: #9a9c9f
+}
+
+.butt2{
+    
+    width: 327px;
+    height: 48px;
+    border-radius: 4px;
+    background-color: #f16c35;
+    border:none;
+    margin-right: 16px;
+    margin-top: 18px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial;
+    text-align: center
+}
+
+.butt2:hover{
+        background-color:#f3530e;
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+}
+}
+}
+}
+.text-center{
+    text-align: center;
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev{
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(201, 104, 14, 0.8);
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 4s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
