@@ -597,11 +597,60 @@ margin-right: 10px;
 
  .input-container-cur{
   padding: 12px 20px;
-  font-size: 10px; 
+  font-size: 12px; 
+  height: 42px;
   
   
  }
 
  .input-field{
-  border: solid 1px #9a9c9f;
+  border: solid 1px #f16c35;
+  height: 42px;
+  padding: 10px
  }
+
+
+ .input-field1{
+  border: solid 1px #f16c35;
+  width: 50px ;
+  font-size: 12px;
+  height: 42px;
+  padding: 10px
+  
+}
+ 
+#mes {
+  width:70px ;
+  border: solid 1px #f59f7b;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 42px;
+  font-size: 10px;}
+
+  .butt6{
+    width: 50px;
+    height: 42px;
+    font-family: Arial;
+    font-size: 10px;
+    background-color: #f59f7b;
+    border:none;
+    color: white;
+    font-weight: bold;
+  
+   }
+
+   .subject{
+    border: solid 1px #f16c35;
+    height:200px;
+    width: 480px ;
+    padding: 10px 10px;
+   }
+
+   .img-cur{
+    width: 199px;
+    height: 120px;
+    margin-bottom: 30px;
+
+   }
