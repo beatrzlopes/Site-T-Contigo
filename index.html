@@ -16,9 +16,9 @@
     <nav class="navbar fixed-top">
         <a href="https://tocontigo.netlify.com/" class="navbar-brand"><img src="./img/logo.png" alt="TôContigo" class="logo"></a>
         <form class="form-inline">
-          <input  type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+          <input  type="search" placeholder="Pesquisar..." aria-label="Pesquisar" class="input-nav">
           <button class="butt" ata-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" ><img src="./img/search.png" class=""></button>
-          <a href="#"><img class="user" src="./img/user.png" ></a>
+          <img onclick="document.getElementById('id01').style.display='block'" class="user" src="./img/user.png" >
         </form>
       </nav>
     </div>
@@ -58,6 +58,40 @@
       </div>
       <br>
       
+    
+
+<!-- The Modal (contains the Sign Up form) -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">Sair</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1 class="tex-modal" >Cadastre-se</h1>
+      <p>Crie Sua Conta e aproveite nosso conteúdo</p>
+      <hr>
+      <label for="email" class="tex-modal"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw" class="tex-modal"><b>Senha</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat" class="tex-modal"><b>Confirme sua senha</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Lembrar Senha
+      </label>
+
+      <p>Criando sua conta voce concorda com os <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
+        <button type="submit" class="signup">Cadastrar</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+
         
 
 
@@ -117,7 +151,17 @@
         </div>
     </div> <br>
     <br>
-
+    <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+        </script>
             </footer>
                 <script type="text/javascript" src="./js/index.js"></script>
 </body>

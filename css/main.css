@@ -19,6 +19,7 @@ input{
   border: none;
   height: 42px;
   width: 360px;
+  padding: 10px;
 }
 
 .butt{
@@ -280,25 +281,6 @@ cursor: pointer;
 
 .search-container button:hover {
 background: #ccc;
-}
-
-::-webkit-input-placeholder {
-color: white;
-}
-
-:-moz-placeholder {
-color: white;
-
-}
-
-::-moz-placeholder {
-color: white;  
-
-}
-
-:-ms-input-placeholder {  
-color: white;  
-
 }
 
 .social-m{
@@ -654,3 +636,4 @@ margin-right: 10px;
     margin-bottom: 30px;
 
    }
+
