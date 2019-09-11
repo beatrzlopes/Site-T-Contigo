@@ -696,3 +696,7 @@ margin-right: 10px;
     border: solid 1px #f16c35;
     box-shadow: 0 20px 80px 0 rgba(219, 91, 5, 0.507);
    }
+
+   .box{
+     width: 100%;
+   }
