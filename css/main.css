@@ -673,3 +673,7 @@ a:active {
 .boxi{
   width: 100%
 }
+#place::-webkit-input-placeholder{
+    color:white;
+    font-size: 12px;
+}
