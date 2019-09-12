@@ -199,6 +199,10 @@ ul {
   font-weight: bold;
 }
 
+.butt6:hover{
+  background-color: #f3530e;
+}
+
 .butt7 {
   width: 120px;
   height: 40px;
@@ -488,18 +492,7 @@ ul {
 
 
 
-.title {
-  font-family: Arial;
-  width: 100%;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.33;
-  letter-spacing: normal;
-  text-align: left;
-  color: #7f7f7f;
-  font-size: 30px;
-}
+
 
 .img-vaga1 {
   height: auto;
@@ -629,6 +622,7 @@ ul {
   width: 199px;
   height: 120px;
   margin-bottom: 30px;
+  
 }
 
 .img-geral {
@@ -677,3 +671,18 @@ a:active {
     color:white;
     font-size: 12px;
 }
+
+.title {
+  font-family: Arial;
+  width: 100%;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7f7f7f;
+  font-size: 30px;
+}
+
+
