@@ -580,7 +580,7 @@ ul {
 }
 
 .input-field {
-  width: 267px;
+  width: 260px;
   border: solid 1px #f16c35;
   height: 42px;
   padding: 10px
@@ -594,10 +594,10 @@ ul {
 
 .input-field1 {
   border: solid 1px #f16c35;
-  width: 40px;
+  width: 35px;
   font-size: 9px;
   height: 42px;
-  padding: 8px
+  padding: 6px
 }
 
 #mes {
